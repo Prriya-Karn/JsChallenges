@@ -42,17 +42,15 @@
 
 // reduce method:- 
 
-const findLongestWord = (Str) => {
-    if(Str.trim().length==0) return false;
+// const findLongestWord = (Str) => {
+//     if(Str.trim().length==0) return false;
 
-    const arrStr = Str.split(" ");
+//     const arrStr = Str.split(" ");
 
-    return arrStr.reduce((acc,currWord,arr)=>{
-        return currWord.length>acc.length?currWord:acc
-    })
-
- 
-}
+//     return arrStr.reduce((acc,currWord,arr)=>{
+//         return currWord.length>acc.length?currWord:acc
+//     })
+// }
 
 
-console.log(findLongestWord("world bestjavascript programming language"))
+// console.log(findLongestWord("world bestjavascript programming language"))
