@@ -13,7 +13,7 @@ const countVowels = (word)=>{
 }
 
 
-console.log(countVowels("HeLlO world"));      // 3
+console.log(countVowels("HeLlOo world"));      // 4
 console.log(countVowels("ThE qUick brOwn fox")); // 5
 console.log(countVowels("Brrrp")) // 0
 console.log(countVowels("priya MADHU"))
