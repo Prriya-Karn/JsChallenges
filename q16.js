@@ -5,6 +5,8 @@ const findMin = (arr)=>{
 
     return sortedArr[0];
 }
-console.log(findMin([5,10,2,8]))  // output 2
+
+
+console.log(findMin([5,2,10,2,8]))  // output 2
 console.log(findMin([5,-3,0,12,-7]));
-console.log(findMin([]))
+console.log(findMin([]));
