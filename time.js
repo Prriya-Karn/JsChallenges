@@ -8,5 +8,4 @@ const timeCount = ()=>{
            }
     },1000);  
 }
-
 timeCount();
